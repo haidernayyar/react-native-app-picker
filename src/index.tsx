@@ -17,6 +17,6 @@ const AppPicker = NativeModules.AppPicker
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return AppPicker.multiply(a, b);
+export function pick(): Promise<Array<string>> {
+  return AppPicker.pick();
 }
