@@ -1,6 +1,6 @@
 # react-native-app-picker
 
-React native library for picking installed applications
+React native library to get list of applications installed as array of package name.
 
 ## Installation
 
@@ -11,11 +11,11 @@ npm install react-native-app-picker
 ## Usage
 
 ```js
-import { multiply } from 'react-native-app-picker';
+import { pick } from 'react-native-app-picker';
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await pick();
 ```
 
 ## Contributing
